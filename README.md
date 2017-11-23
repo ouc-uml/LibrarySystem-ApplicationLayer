@@ -1,5 +1,19 @@
 # 图书管理系统应用层-UI接口介绍
 
+# 错误类Error
+  	string Error::getConnectError();
+	//获取连接时出现的错误
+	string Error::getSendRecvError();
+	//获取发送/接收时出现的错误
+	string getLoginError();
+	//获取登录时遇到的错误
+	
+# 其他-注册函数
+	bool signIn(char* pwd/*密码*/,char* resl/*返回为用户分配的账号*/);
+	//管理员专用
+	bool signIn(char* name/*昵称/姓名*/,char* pwd/*密码*/,char* resl/*返回为用户分配的账号*/);
+	//用户专用
+	
 # Users(用户)类
 
 	Users::Users();
