@@ -1,3 +1,5 @@
+# 大字引起注意：以下函数仅完成普通功能，未进行更为精细的检验，如有需要，需自行对以下函数进行搭配调用
+
 # 图书管理系统应用层-UI接口介绍
 
 # 错误类Error
@@ -5,7 +7,7 @@
 	//获取连接时出现的错误
 	string Error::getSendRecvError();
 	//获取发送/接收时出现的错误
-	string getLoginError();
+	string Error::getLoginError();
 	//获取登录时遇到的错误
 	
 # 其他-注册函数
