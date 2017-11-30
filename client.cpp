@@ -364,10 +364,10 @@ bool signIn(char* name,char *pwd,char* resl){
 	}
 }
 
-int main(int argc,char **argv){
+/*int main(int argc,char **argv){
 	Administrators *ad=new Administrators((char*)"ad",(char*)"123456");
 	if(ad->getLogFlag())delete ad;
  	return 0;
-}
+}*/
 
 
