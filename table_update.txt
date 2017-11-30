@@ -1,0 +1,4 @@
+UPDATE Borrowings SET State = Overtime WHERE Etime = %s
+UPDATE Appointments SET State = Cancel WHERE Etime = %s
+SELECT Uno FROM Borrowings WHERE Etime = %s
+SELECT Uno FROM Appointments WHERE Etime = %s

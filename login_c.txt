@@ -1,0 +1,2 @@
+SELECT H-Pwd FROM NormalUsers WHERE Uno = %s
+SELECT H-Pwd FROM Administrators WHERE Ano = %s

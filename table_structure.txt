@@ -1,0 +1,12 @@
+CREATE TABLE BooksCategory(ISBN unsigned int,Bname string,Editor string,Class string,Press string,Ptime/Edition string,Stime string,Main_0 string,Main_1 string,Main_2 string)
+CREATE TABLE Books(ISBN-Bno string,ISBN unsigned int,Bno unsigned int,State string,Remarks string)
+CREATE TABLE NormalUsers(Uno unsigned int,Uname string,H-Pwd string,Rtime string,Urank unsigned int,Bsplus unsigned int,Asplus unsigned int,Csplus unsigned int)
+CREATE TABLE Administrators(Ano unsigned int,H-Pwd string,Rtime string,Arank unsigned int)
+CREATE TABLE Borrowings(BRno unsigned int,Uno unsigned int,ISBN unsigned int,Bno unsigned int,Btime string,Etime string,State string)
+CREATE TABLE Appointments(APno unsigned int,Uno unsigned int,ISBN unsigned int,Atime string,Etime string,State string)
+CREATE TABLE Recommendations(Rno unsigned int,Uno unsigned int,Rtime string,State string,Dtime string,Ifmt string)
+CREATE TABLE Comments(Cno unsigned int,Uno unsigned int,Bno unsigned int,Ctime string,Comment_0 string,Comment_1 string,Comment_2 string,Comment_3 string,Comment_4 string)
+CREATE TABLE Management(Mno unsigned int,Mtime string,Mano unsigned int,Mtype string,Mobject unsigned int,Ifmt string)
+CREATE TABLE Unews(UNno unsigned int,Uno unsigned int,UNtime string,State string,Comment string)
+CREATE TABLE Anews(ANno unsigned int,ANtime string,State string,Comment string)
+
