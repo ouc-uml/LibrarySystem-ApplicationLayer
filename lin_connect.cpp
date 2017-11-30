@@ -8,7 +8,7 @@
 #include<sys/socket.h>
 #include<sys/types.h>
 
-#include"lin_connect.h"
+#include"connect.h"
 
 #define CONERR (char*)"connect error %s errno: %d\n"
 #define SENERR (char*)"send mes error %s errno: %d\n"
