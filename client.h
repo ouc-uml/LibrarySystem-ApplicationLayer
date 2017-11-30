@@ -1,7 +1,6 @@
 #include<vector>
 #include<string>
-#include"lin_connect.h"
-//#include"win_connect.h"
+#include"connect.h"
 
 #define MAXLINE 1024
 #define MSGLEN  256
