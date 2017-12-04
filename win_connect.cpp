@@ -12,7 +12,7 @@
 #define MSGLEN  256
 #define SERVER_ADDR (char*)"127.0.0.1"
 #define SERVER_PORT 10004
-#define MESSAGE (char*)"%d\nToken: %s\nMSG: %s"
+#define MESSAGE (char*)"%d\n%s\n%s"
 
 using namespace std;
 struct{
